@@ -1,0 +1,579 @@
+debug: Wed, 29 Sep 2021 08:07:15 GMT
+debug: Project: /Users/edz/work/creatorproject/3.3.1/test
+debug: Targets: editor,preview
+debug: Incremental file seems great.
+debug: Engine path: /Applications/CocosCreator/Creator/3.3.1/CocosCreator.app/Contents/Resources/resources/3d/engine
+debug: Initializing target [Editor]
+debug: Loading cache
+debug: Loading cache costs 12.79159501194954ms.
+debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,3d,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,intersection-2d,primitive,profiler,audio,video,terrain,webview,tween,tiled-map,spine,dragon-bones
+debug: Initializing target [Preview]
+debug: Loading cache
+debug: Loading cache costs 28.41619399189949ms.
+debug: Sync engine features: base,gfx-webgl,2d,ui,physics-2d-box2d,intersection-2d,profiler,particle-2d,audio,video,webview,tween,tiled-map,spine,dragon-bones
+debug: Pulling asset-db.
+debug: Fetch asset-db cost: 33.95663899183273ms.
+debug: Build iteration starts.
+Number of accumulated asset changes: 13
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:10 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/cc
+debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
+debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:23:06 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:27 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/LabelPlus.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/LabelPlus.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfont.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfont.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfontUtils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfontUtils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/index.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/index.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter-font.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter-font.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttf.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttf.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttfUtils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttfUtils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/src/common/base/ui/ScrollList.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/src/common/base/ui/ScrollList.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/src/common/base/ui/ScrollListItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/src/common/base/ui/ScrollListItem.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test_ytc.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test_ytc.ts.
+debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Wed Sep 29 2021 14:43:43 GMT+0800 (中国标准时间), Current mtime: Wed Sep 29 2021 16:07:05 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/code-quality/cr.mjs
+debug: Detected change: file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts. Last mtime: Wed Sep 29 2021 15:36:17 GMT+0800 (中国标准时间), Current mtime: Wed Sep 29 2021 16:07:25 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts
+debug: Detected change: file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test_ytc.ts. Last mtime: Wed Sep 29 2021 13:51:49 GMT+0800 (中国标准时间), Current mtime: Wed Sep 29 2021 16:07:10 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test_ytc.ts
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test_ytc.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test_ytc.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test_ytc.ts as cce:/internal/x/cc.
+debug: Resolve ../src/common/base/ui/ScrollList from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test_ytc.ts as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/src/common/base/ui/ScrollList.ts.
+debug: Target(editor) ends with cost 1229.124803006649ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:10 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/cc
+debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d.
+debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:23:06 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:28 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/LabelPlus.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/LabelPlus.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfont.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfont.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfontUtils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfontUtils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/index.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/index.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter-font.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter-font.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttf.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttf.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttfUtils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttfUtils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/src/common/base/ui/ScrollList.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/src/common/base/ui/ScrollList.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/src/common/base/ui/ScrollListItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/src/common/base/ui/ScrollListItem.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test_ytc.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test_ytc.ts.
+debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Wed Sep 29 2021 14:43:43 GMT+0800 (中国标准时间), Current mtime: Wed Sep 29 2021 16:07:05 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/code-quality/cr.mjs
+debug: Detected change: file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts. Last mtime: Wed Sep 29 2021 15:36:17 GMT+0800 (中国标准时间), Current mtime: Wed Sep 29 2021 16:07:25 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts
+debug: Detected change: file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test_ytc.ts. Last mtime: Wed Sep 29 2021 13:51:49 GMT+0800 (中国标准时间), Current mtime: Wed Sep 29 2021 16:07:10 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test_ytc.ts
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test_ytc.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test_ytc.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test_ytc.ts as cce:/internal/x/cc.
+debug: Resolve ../src/common/base/ui/ScrollList from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test_ytc.ts as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/src/common/base/ui/ScrollList.ts.
+debug: Target(preview) ends with cost 1132.5825079977512ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:27 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:03:22 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/LabelPlus.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/LabelPlus.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfont.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfont.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfontUtils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfontUtils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/index.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/index.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter-font.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter-font.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttf.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttf.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttfUtils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttfUtils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/src/common/base/ui/ScrollListItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/src/common/base/ui/ScrollListItem.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test_ytc.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test_ytc.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/src/common/base/ui/ScrollList.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/src/common/base/ui/ScrollList.ts.
+debug: Detected change: file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts. Last mtime: Wed Sep 29 2021 16:07:25 GMT+0800 (中国标准时间), Current mtime: Wed Sep 29 2021 16:10:25 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 157.45960500836372ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:28 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:03:22 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/LabelPlus.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/LabelPlus.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfont.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfont.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfontUtils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfontUtils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/index.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/index.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter-font.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter-font.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttf.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttf.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttfUtils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttfUtils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/src/common/base/ui/ScrollList.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/src/common/base/ui/ScrollList.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/src/common/base/ui/ScrollListItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/src/common/base/ui/ScrollListItem.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test_ytc.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test_ytc.ts.
+debug: Detected change: file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts. Last mtime: Wed Sep 29 2021 16:07:25 GMT+0800 (中国标准时间), Current mtime: Wed Sep 29 2021 16:10:25 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 273.2358060181141ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:03:22 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:06:07 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/LabelPlus.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/LabelPlus.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfont.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfont.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfontUtils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfontUtils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/index.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/index.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter-font.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter-font.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttf.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttf.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttfUtils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttfUtils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/src/common/base/ui/ScrollList.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/src/common/base/ui/ScrollList.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/src/common/base/ui/ScrollListItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/src/common/base/ui/ScrollListItem.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test.ts.
+debug: Inspect file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test.ts as cce:/internal/x/cc.
+debug: Resolve ../src/common/base/ui/ScrollList from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test.ts as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/src/common/base/ui/ScrollList.ts.
+debug: Target(editor) ends with cost 176.9307620227337ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:03:22 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:06:07 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfontUtils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfontUtils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfont.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfont.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/index.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/index.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter-font.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter-font.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttf.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttf.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttfUtils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttfUtils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/src/common/base/ui/ScrollList.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/src/common/base/ui/ScrollList.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/src/common/base/ui/ScrollListItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/src/common/base/ui/ScrollListItem.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/LabelPlus.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/LabelPlus.ts.
+debug: Inspect file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test.ts as cce:/internal/x/cc.
+debug: Resolve ../src/common/base/ui/ScrollList from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test.ts as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/src/common/base/ui/ScrollList.ts.
+debug: Target(preview) ends with cost 455.3823330104351ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:06:07 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:07:32 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/LabelPlus.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/LabelPlus.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfont.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfont.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfontUtils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfontUtils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/index.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/index.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter-font.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter-font.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttf.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttf.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttfUtils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttfUtils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/src/common/base/ui/ScrollList.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/src/common/base/ui/ScrollList.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/src/common/base/ui/ScrollListItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/src/common/base/ui/ScrollListItem.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test.ts.
+debug: Detected change: file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test.ts. Last mtime: Wed Sep 29 2021 16:07:10 GMT+0800 (中国标准时间), Current mtime: Wed Sep 29 2021 16:14:24 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test.ts as cce:/internal/x/cc.
+debug: Resolve ../src/common/base/ui/ScrollList from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test.ts as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/src/common/base/ui/ScrollList.ts.
+debug: Target(editor) ends with cost 124.38221099972725ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:06:07 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:07:32 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/LabelPlus.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/LabelPlus.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfont.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfont.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfontUtils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfontUtils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/index.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/index.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter-font.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter-font.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttf.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttf.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttfUtils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttfUtils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/src/common/base/ui/ScrollList.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/src/common/base/ui/ScrollList.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/src/common/base/ui/ScrollListItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/src/common/base/ui/ScrollListItem.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test.ts.
+debug: Detected change: file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test.ts. Last mtime: Wed Sep 29 2021 16:07:10 GMT+0800 (中国标准时间), Current mtime: Wed Sep 29 2021 16:14:24 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test.ts as cce:/internal/x/cc.
+debug: Resolve ../src/common/base/ui/ScrollList from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test.ts as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/src/common/base/ui/ScrollList.ts.
+debug: Target(preview) ends with cost 210.90033200383186ms.
+debug: Dispatch build request for time accumulated 3 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 3
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:07:32 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:07:50 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/LabelPlus.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/LabelPlus.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfont.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfont.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfontUtils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfontUtils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/index.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/index.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter-font.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter-font.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttf.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttf.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttfUtils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttfUtils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollList.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollList.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollListItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollListItem.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts.
+debug: Inspect file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollList.ts
+debug: Inspect file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollListItem.ts
+debug: Inspect file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts as cce:/internal/x/cc.
+debug: Resolve ../src/common/base/ui/ScrollList from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollList.ts.
+debug: Resolve cc/env from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollList.ts as external dependency cc/env.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollList.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollList.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollList.ts as cce:/internal/x/cc.
+debug: Resolve cc/env from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollListItem.ts as external dependency cc/env.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollListItem.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollListItem.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollListItem.ts as cce:/internal/x/cc.
+debug: Resolve ./ScrollListItem from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollList.ts as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollListItem.ts.
+debug: Target(editor) ends with cost 1555.0474990010262ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:07:32 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:07:51 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/LabelPlus.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/LabelPlus.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfont.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfont.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfontUtils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfontUtils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/index.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/index.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter-font.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter-font.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttf.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttf.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttfUtils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttfUtils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollList.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollList.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollListItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollListItem.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts.
+debug: Inspect file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollList.ts
+debug: Inspect file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollListItem.ts
+debug: Inspect file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts as cce:/internal/x/cc.
+debug: Resolve ../src/common/base/ui/ScrollList from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollList.ts.
+debug: Resolve cc/env from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollList.ts as external dependency cc/env.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollList.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollList.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollList.ts as cce:/internal/x/cc.
+debug: Resolve cc/env from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollListItem.ts as external dependency cc/env.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollListItem.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollListItem.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollListItem.ts as cce:/internal/x/cc.
+debug: Resolve ./ScrollListItem from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollList.ts as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollListItem.ts.
+debug: Target(preview) ends with cost 1314.9906319975853ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:07:50 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:08:36 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/LabelPlus.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/LabelPlus.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfont.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfont.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfontUtils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfontUtils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/index.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/index.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter-font.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter-font.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttf.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttf.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttfUtils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttfUtils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollList.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollList.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollListItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollListItem.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts.
+debug: Detected change: file:///Users/edz/work/creatorproject/3.3.1/test/assets/LabelPlus.ts. Last mtime: Wed Sep 29 2021 15:30:04 GMT+0800 (中国标准时间), Current mtime: Wed Sep 29 2021 16:15:40 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/edz/work/creatorproject/3.3.1/test/assets/LabelPlus.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/edz/work/creatorproject/3.3.1/test/assets/LabelPlus.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/LabelPlus.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/LabelPlus.ts as cce:/internal/x/cc.
+debug: Resolve ./label/font-utils from file:///Users/edz/work/creatorproject/3.3.1/test/assets/LabelPlus.ts as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts.
+debug: Target(editor) ends with cost 176.69861501455307ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:07:51 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:08:36 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/LabelPlus.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/LabelPlus.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfont.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfont.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfontUtils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfontUtils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/index.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/index.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter-font.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter-font.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttf.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttf.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttfUtils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttfUtils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollList.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollList.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollListItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollListItem.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts.
+debug: Detected change: file:///Users/edz/work/creatorproject/3.3.1/test/assets/LabelPlus.ts. Last mtime: Wed Sep 29 2021 15:30:04 GMT+0800 (中国标准时间), Current mtime: Wed Sep 29 2021 16:15:40 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/edz/work/creatorproject/3.3.1/test/assets/LabelPlus.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/edz/work/creatorproject/3.3.1/test/assets/LabelPlus.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/LabelPlus.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/LabelPlus.ts as cce:/internal/x/cc.
+debug: Resolve ./label/font-utils from file:///Users/edz/work/creatorproject/3.3.1/test/assets/LabelPlus.ts as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts.
+debug: Target(preview) ends with cost 169.27862799167633ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:08:36 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:08:49 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/LabelPlus.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/LabelPlus.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfont.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfont.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfontUtils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfontUtils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/index.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/index.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter-font.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter-font.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttf.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttf.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttfUtils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttfUtils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollList.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollList.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollListItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollListItem.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts.
+debug: Inspect file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/LabelPlus.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/LabelPlus.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/LabelPlus.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/LabelPlus.ts as cce:/internal/x/cc.
+error: 无法从 file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/LabelPlus.ts 解析出模块 ./label/font-utils，已将其视为外部模块。
+这是因为：Error: 以 file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/LabelPlus.ts 为起点找不到模块 "./label/font-utils"
+warn: 你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。
+debug: Target(editor) ends with cost 154.8203839957714ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:08:36 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:08:50 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfont.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfont.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfontUtils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfontUtils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/index.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/index.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter-font.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter-font.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttf.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttf.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttfUtils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttfUtils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollList.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollList.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/LabelPlus.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/LabelPlus.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollListItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollListItem.ts.
+debug: Inspect file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/LabelPlus.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/LabelPlus.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/LabelPlus.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/LabelPlus.ts as cce:/internal/x/cc.
+error: 无法从 file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/LabelPlus.ts 解析出模块 ./label/font-utils，已将其视为外部模块。
+这是因为：Error: 以 file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/LabelPlus.ts 为起点找不到模块 "./label/font-utils"
+warn: 你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。
+debug: Target(preview) ends with cost 282.91747200489044ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:08:49 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:09:26 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/LabelPlus.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/LabelPlus.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfont.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfont.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfontUtils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfontUtils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/index.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/index.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter-font.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter-font.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttf.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttf.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttfUtils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttfUtils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollList.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollList.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollListItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollListItem.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts.
+debug: Detected change: file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/LabelPlus.ts. Last mtime: Wed Sep 29 2021 16:15:40 GMT+0800 (中国标准时间), Current mtime: Wed Sep 29 2021 16:16:30 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/LabelPlus.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/LabelPlus.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/LabelPlus.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/LabelPlus.ts as cce:/internal/x/cc.
+debug: Resolve ./font-utils from file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/LabelPlus.ts as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts.
+debug: Target(editor) ends with cost 98.84606000781059ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:08:50 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:09:26 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfont.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfont.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfontUtils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfontUtils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/index.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/index.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter-font.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter-font.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttf.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttf.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttfUtils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttfUtils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollList.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollList.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/LabelPlus.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/LabelPlus.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollListItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollListItem.ts.
+debug: Detected change: file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/LabelPlus.ts. Last mtime: Wed Sep 29 2021 16:15:40 GMT+0800 (中国标准时间), Current mtime: Wed Sep 29 2021 16:16:30 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/LabelPlus.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/LabelPlus.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/LabelPlus.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/LabelPlus.ts as cce:/internal/x/cc.
+debug: Resolve ./font-utils from file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/LabelPlus.ts as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts.
+debug: Target(preview) ends with cost 160.4177620112896ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:09:26 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:10:32 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfont.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfont.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/LabelPlus.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/LabelPlus.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfontUtils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfontUtils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/index.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/index.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter-font.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter-font.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttf.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttf.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttfUtils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttfUtils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollList.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollList.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollListItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollListItem.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts.
+debug: Detected change: file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts. Last mtime: Wed Sep 29 2021 10:50:00 GMT+0800 (中国标准时间), Current mtime: Wed Sep 29 2021 16:17:25 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 69.7026309967041ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:09:26 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:10:32 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/LabelPlus.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/LabelPlus.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfont.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfont.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/index.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/index.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter-font.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter-font.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttf.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttf.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttfUtils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttfUtils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollList.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollList.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollListItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollListItem.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfontUtils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfontUtils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts.
+debug: Detected change: file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts. Last mtime: Wed Sep 29 2021 10:50:00 GMT+0800 (中国标准时间), Current mtime: Wed Sep 29 2021 16:17:25 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 131.2290219962597ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:10:32 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:11:06 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/LabelPlus.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/LabelPlus.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfont.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfont.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfontUtils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfontUtils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/index.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/index.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter-font.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter-font.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttf.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttf.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttfUtils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttfUtils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollListItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollListItem.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollList.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollList.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts.
+debug: Detected change: file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts. Last mtime: Wed Sep 29 2021 16:14:24 GMT+0800 (中国标准时间), Current mtime: Wed Sep 29 2021 16:18:10 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts as cce:/internal/x/cc.
+debug: Resolve ../src/common/base/ui/ScrollList from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollList.ts.
+debug: Target(editor) ends with cost 94.54325598478317ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:10:32 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:11:06 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/LabelPlus.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/LabelPlus.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfont.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfont.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfontUtils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfontUtils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/index.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/index.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter-font.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter-font.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttf.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttf.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttfUtils.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttfUtils.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollList.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollList.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollListItem.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollListItem.ts.
+debug: Resolve file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts from cce:/internal/x/prerequisite-imports as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts.
+debug: Detected change: file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts. Last mtime: Wed Sep 29 2021 16:14:24 GMT+0800 (中国标准时间), Current mtime: Wed Sep 29 2021 16:18:10 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts as cce:/internal/x/cc.
+debug: Resolve ../src/common/base/ui/ScrollList from file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts as file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollList.ts.
+debug: Target(preview) ends with cost 147.59299701452255ms.

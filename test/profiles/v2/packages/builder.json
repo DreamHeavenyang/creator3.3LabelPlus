@@ -1,0 +1,11 @@
+{
+  "__version__": "1.2.9",
+  "log": {
+    "level": 4
+  },
+  "common": {
+    "outputName": "cocos-play",
+    "mainBundleCompressionType": "merge_dep",
+    "platform": "cocos-play"
+  }
+}

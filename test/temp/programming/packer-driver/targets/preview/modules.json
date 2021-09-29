@@ -1,0 +1,1723 @@
+{
+  "cce:/internal/x/cc": {
+    "mTimestamp": 10992.045087993145,
+    "chunkId": "quick-pack:/cce/internal/x/cc.js",
+    "imports": [
+      {
+        "value": "cce:/internal/x/cc-fu/base",
+        "rewritten": "__unresolved_0",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 14
+          },
+          "end": {
+            "line": 1,
+            "column": 42
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/gfx-webgl",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 14
+          },
+          "end": {
+            "line": 2,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/2d",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 14
+          },
+          "end": {
+            "line": 3,
+            "column": 40
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/ui",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 14
+          },
+          "end": {
+            "line": 4,
+            "column": 40
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/physics-2d-box2d",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 14
+          },
+          "end": {
+            "line": 5,
+            "column": 54
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/physics-2d-framework",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 14
+          },
+          "end": {
+            "line": 6,
+            "column": 58
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/intersection-2d",
+        "rewritten": "__unresolved_6",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 14
+          },
+          "end": {
+            "line": 7,
+            "column": 53
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/profiler",
+        "rewritten": "__unresolved_7",
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 14
+          },
+          "end": {
+            "line": 8,
+            "column": 46
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/particle-2d",
+        "rewritten": "__unresolved_8",
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 14
+          },
+          "end": {
+            "line": 9,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/audio",
+        "rewritten": "__unresolved_9",
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 14
+          },
+          "end": {
+            "line": 10,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/video",
+        "rewritten": "__unresolved_10",
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 14
+          },
+          "end": {
+            "line": 11,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/webview",
+        "rewritten": "__unresolved_11",
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 14
+          },
+          "end": {
+            "line": 12,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/tween",
+        "rewritten": "__unresolved_12",
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 14
+          },
+          "end": {
+            "line": 13,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/tiled-map",
+        "rewritten": "__unresolved_13",
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 14
+          },
+          "end": {
+            "line": 14,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/spine",
+        "rewritten": "__unresolved_14",
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 14
+          },
+          "end": {
+            "line": 15,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/dragon-bones",
+        "rewritten": "__unresolved_15",
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 14
+          },
+          "end": {
+            "line": 16,
+            "column": 50
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/base",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/gfx-webgl",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/2d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/ui",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-box2d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-framework",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/intersection-2d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/profiler",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/particle-2d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/audio",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/video",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/webview",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/tween",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/tiled-map",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/spine",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/dragon-bones",
+        "isExternal": true
+      }
+    ]
+  },
+  "cce:/internal/x/prerequisite-imports": {
+    "mTimestamp": 666751.7416829765,
+    "chunkId": "quick-pack:/cce/internal/x/prerequisite-imports.js",
+    "imports": [
+      {
+        "value": "file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts",
+        "rewritten": "__unresolved_0",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 7
+          },
+          "end": {
+            "line": 4,
+            "column": 78
+          }
+        }
+      },
+      {
+        "value": "file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/LabelPlus.ts",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 7
+          },
+          "end": {
+            "line": 5,
+            "column": 83
+          }
+        }
+      },
+      {
+        "value": "file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfont.ts",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 7
+          },
+          "end": {
+            "line": 6,
+            "column": 80
+          }
+        }
+      },
+      {
+        "value": "file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfontUtils.ts",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 7
+          },
+          "end": {
+            "line": 7,
+            "column": 85
+          }
+        }
+      },
+      {
+        "value": "file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 7
+          },
+          "end": {
+            "line": 8,
+            "column": 84
+          }
+        }
+      },
+      {
+        "value": "file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/index.ts",
+        "rewritten": "__unresolved_5",
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 7
+          },
+          "end": {
+            "line": 9,
+            "column": 79
+          }
+        }
+      },
+      {
+        "value": "file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter-font.ts",
+        "rewritten": "__unresolved_6",
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 7
+          },
+          "end": {
+            "line": 10,
+            "column": 85
+          }
+        }
+      },
+      {
+        "value": "file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter.ts",
+        "rewritten": "__unresolved_7",
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 7
+          },
+          "end": {
+            "line": 11,
+            "column": 80
+          }
+        }
+      },
+      {
+        "value": "file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttf.ts",
+        "rewritten": "__unresolved_8",
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 7
+          },
+          "end": {
+            "line": 12,
+            "column": 77
+          }
+        }
+      },
+      {
+        "value": "file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttfUtils.ts",
+        "rewritten": "__unresolved_9",
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 7
+          },
+          "end": {
+            "line": 13,
+            "column": 82
+          }
+        }
+      },
+      {
+        "value": "file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollList.ts",
+        "rewritten": "__unresolved_10",
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 7
+          },
+          "end": {
+            "line": 14,
+            "column": 102
+          }
+        }
+      },
+      {
+        "value": "file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollListItem.ts",
+        "rewritten": "__unresolved_11",
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 7
+          },
+          "end": {
+            "line": 15,
+            "column": 106
+          }
+        }
+      },
+      {
+        "value": "file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts",
+        "rewritten": "__unresolved_12",
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 7
+          },
+          "end": {
+            "line": 16,
+            "column": 81
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/LabelPlus.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfont.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfontUtils.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/index.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter-font.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttf.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttfUtils.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollList.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollListItem.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts"
+      }
+    ]
+  },
+  "file:///Users/edz/work/creatorproject/3.3.1/test/assets/UpdateText.ts": {
+    "mTimestamp": 1632903445324.9868,
+    "chunkId": "assets/UpdateText.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 81
+          },
+          "end": {
+            "line": 1,
+            "column": 85
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfont.ts": {
+    "mTimestamp": 1632814299266.576,
+    "chunkId": "assets/label/bmfont.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 32,
+            "column": 64
+          },
+          "end": {
+            "line": 32,
+            "column": 68
+          }
+        }
+      },
+      {
+        "value": "./bmfontUtils",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 33,
+            "column": 28
+          },
+          "end": {
+            "line": 33,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "./letter",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 34,
+            "column": 35
+          },
+          "end": {
+            "line": 34,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfontUtils.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter.ts"
+      }
+    ]
+  },
+  "file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfontUtils.ts": {
+    "mTimestamp": 1632901823810.1528,
+    "chunkId": "assets/label/bmfontUtils.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 26,
+            "column": 187
+          },
+          "end": {
+            "line": 26,
+            "column": 191
+          }
+        }
+      },
+      {
+        "value": "./font-utils",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 28,
+            "column": 47
+          },
+          "end": {
+            "line": 28,
+            "column": 61
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts"
+      }
+    ]
+  },
+  "file:///Users/edz/work/creatorproject/3.3.1/test/assets/LabelPlus.ts": {
+    "mTimestamp": 1632903340204.028,
+    "chunkId": "assets/LabelPlus.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 152
+          },
+          "end": {
+            "line": 2,
+            "column": 156
+          }
+        }
+      },
+      {
+        "value": "./label/font-utils",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 31
+          },
+          "end": {
+            "line": 3,
+            "column": 51
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts"
+      }
+    ]
+  },
+  "file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttf.ts": {
+    "mTimestamp": 1632898290250.7292,
+    "chunkId": "assets/label/ttf.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 26,
+            "column": 45
+          },
+          "end": {
+            "line": 26,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "./ttfUtils",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 27,
+            "column": 25
+          },
+          "end": {
+            "line": 27,
+            "column": 37
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttfUtils.ts"
+      }
+    ]
+  },
+  "file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test_ytc.ts": {
+    "mTimestamp": 1632902830363.6704,
+    "chunkId": "assets/test_ytc/ytc/test_ytc.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 120
+          },
+          "end": {
+            "line": 9,
+            "column": 124
+          }
+        }
+      },
+      {
+        "value": "../src/common/base/ui/ScrollList",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 23
+          },
+          "end": {
+            "line": 11,
+            "column": 57
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/src/common/base/ui/ScrollList.ts"
+      }
+    ]
+  },
+  "file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter.ts": {
+    "mTimestamp": 1632814405159.8591,
+    "chunkId": "assets/label/letter.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 31,
+            "column": 70
+          },
+          "end": {
+            "line": 31,
+            "column": 74
+          }
+        }
+      },
+      {
+        "value": "./bmfont",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 32,
+            "column": 23
+          },
+          "end": {
+            "line": 32,
+            "column": 33
+          }
+        }
+      },
+      {
+        "value": "./letter-font",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 33,
+            "column": 27
+          },
+          "end": {
+            "line": 33,
+            "column": 42
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfont.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter-font.ts"
+      }
+    ]
+  },
+  "file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttfUtils.ts": {
+    "mTimestamp": 1632815546869.3708,
+    "chunkId": "assets/label/ttfUtils.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 26,
+            "column": 263
+          },
+          "end": {
+            "line": 26,
+            "column": 267
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/index.ts": {
+    "mTimestamp": 1632814481591.6326,
+    "chunkId": "assets/label/index.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 32,
+            "column": 34
+          },
+          "end": {
+            "line": 32,
+            "column": 38
+          }
+        }
+      },
+      {
+        "value": "./bmfont",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 33,
+            "column": 23
+          },
+          "end": {
+            "line": 33,
+            "column": 33
+          }
+        }
+      },
+      {
+        "value": "./font-utils",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 34,
+            "column": 27
+          },
+          "end": {
+            "line": 34,
+            "column": 41
+          }
+        }
+      },
+      {
+        "value": "./letter",
+        "rewritten": "__unresolved_3",
+        "loc": {
+          "start": {
+            "line": 35,
+            "column": 23
+          },
+          "end": {
+            "line": 35,
+            "column": 33
+          }
+        }
+      },
+      {
+        "value": "./ttf",
+        "rewritten": "__unresolved_4",
+        "loc": {
+          "start": {
+            "line": 36,
+            "column": 20
+          },
+          "end": {
+            "line": 36,
+            "column": 27
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfont.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/ttf.ts"
+      }
+    ]
+  },
+  "file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts": {
+    "mTimestamp": 1632903025205.248,
+    "chunkId": "assets/label/font-utils.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 26,
+            "column": 157
+          },
+          "end": {
+            "line": 26,
+            "column": 161
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/letter-font.ts": {
+    "mTimestamp": 1632897613712.4663,
+    "chunkId": "assets/label/letter-font.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 31,
+            "column": 36
+          },
+          "end": {
+            "line": 31,
+            "column": 40
+          }
+        }
+      },
+      {
+        "value": "./bmfontUtils",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 32,
+            "column": 28
+          },
+          "end": {
+            "line": 32,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "./font-utils",
+        "rewritten": "__unresolved_2",
+        "loc": {
+          "start": {
+            "line": 33,
+            "column": 57
+          },
+          "end": {
+            "line": 33,
+            "column": 71
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/bmfontUtils.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts"
+      }
+    ]
+  },
+  "file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/src/common/base/ui/ScrollListItem.ts": {
+    "mTimestamp": 1632770314000,
+    "chunkId": "assets/test_ytc/src/common/base/ui/ScrollListItem.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 23,
+            "column": 8
+          },
+          "end": {
+            "line": 23,
+            "column": 12
+          }
+        }
+      },
+      {
+        "value": "cc/env",
+        "loc": {
+          "start": {
+            "line": 24,
+            "column": 19
+          },
+          "end": {
+            "line": 24,
+            "column": 27
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "specifierOrURL": "cc/env",
+        "isExternal": true
+      }
+    ]
+  },
+  "file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/src/common/base/ui/ScrollList.ts": {
+    "mTimestamp": 1632770314000,
+    "chunkId": "assets/test_ytc/src/common/base/ui/ScrollList.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 216
+          },
+          "end": {
+            "line": 9,
+            "column": 220
+          }
+        }
+      },
+      {
+        "value": "cc/env",
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 28
+          },
+          "end": {
+            "line": 10,
+            "column": 36
+          }
+        }
+      },
+      {
+        "value": "./ScrollListItem",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 27
+          },
+          "end": {
+            "line": 11,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "specifierOrURL": "cc/env",
+        "isExternal": true
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/src/common/base/ui/ScrollListItem.ts"
+      }
+    ]
+  },
+  "cce:/internal/code-quality/cr.mjs": {
+    "mTimestamp": 1632902825036,
+    "chunkId": "quick-pack:/cce/internal/code-quality/cr.js",
+    "imports": [],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": []
+  },
+  "file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/ytc/test.ts": {
+    "mTimestamp": 1632903264112.6233,
+    "chunkId": "assets/test_ytc/ytc/test.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 120
+          },
+          "end": {
+            "line": 9,
+            "column": 124
+          }
+        }
+      },
+      {
+        "value": "../src/common/base/ui/ScrollList",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 23
+          },
+          "end": {
+            "line": 11,
+            "column": 57
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/edz/work/creatorproject/3.3.1/test/assets/test_ytc/src/common/base/ui/ScrollList.ts"
+      }
+    ]
+  },
+  "file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/ytc/test.ts": {
+    "mTimestamp": 1632903490224.6958,
+    "chunkId": "assets/test/ytc/test.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 120
+          },
+          "end": {
+            "line": 9,
+            "column": 124
+          }
+        }
+      },
+      {
+        "value": "../src/common/base/ui/ScrollList",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 23
+          },
+          "end": {
+            "line": 11,
+            "column": 57
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollList.ts"
+      }
+    ]
+  },
+  "file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollList.ts": {
+    "mTimestamp": 1632770314000,
+    "chunkId": "assets/test/src/common/base/ui/ScrollList.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 216
+          },
+          "end": {
+            "line": 9,
+            "column": 220
+          }
+        }
+      },
+      {
+        "value": "cc/env",
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 28
+          },
+          "end": {
+            "line": 10,
+            "column": 36
+          }
+        }
+      },
+      {
+        "value": "./ScrollListItem",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 27
+          },
+          "end": {
+            "line": 11,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "specifierOrURL": "cc/env",
+        "isExternal": true
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollListItem.ts"
+      }
+    ]
+  },
+  "file:///Users/edz/work/creatorproject/3.3.1/test/assets/test/src/common/base/ui/ScrollListItem.ts": {
+    "mTimestamp": 1632770314000,
+    "chunkId": "assets/test/src/common/base/ui/ScrollListItem.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 23,
+            "column": 8
+          },
+          "end": {
+            "line": 23,
+            "column": 12
+          }
+        }
+      },
+      {
+        "value": "cc/env",
+        "loc": {
+          "start": {
+            "line": 24,
+            "column": 19
+          },
+          "end": {
+            "line": 24,
+            "column": 27
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "specifierOrURL": "cc/env",
+        "isExternal": true
+      }
+    ]
+  },
+  "file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/LabelPlus.ts": {
+    "mTimestamp": 1632903390104.495,
+    "chunkId": "assets/label/LabelPlus.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs",
+        "rewritten": "__unresolved_0"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 152
+          },
+          "end": {
+            "line": 2,
+            "column": 156
+          }
+        }
+      },
+      {
+        "value": "./font-utils",
+        "rewritten": "__unresolved_1",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 31
+          },
+          "end": {
+            "line": 3,
+            "column": 45
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/edz/work/creatorproject/3.3.1/test/assets/label/font-utils.ts"
+      }
+    ]
+  }
+}

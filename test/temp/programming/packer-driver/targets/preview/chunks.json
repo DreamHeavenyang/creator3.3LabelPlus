@@ -1,0 +1,261 @@
+{
+  "assets/label/bmfont.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/label/bmfontUtils.js",
+      "__unresolved_2": "assets/label/letter.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/label/bmfont.js",
+    "mTimestamp": 1632885130794
+  },
+  "assets/label/index.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/label/bmfont.js",
+      "__unresolved_3": "assets/label/letter.js",
+      "__unresolved_4": "assets/label/ttf.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js",
+      "__unresolved_2": "assets/label/font-utils.js"
+    },
+    "physicalLocation": "fs/0/assets/label/index.js",
+    "mTimestamp": 1632885131354
+  },
+  "assets/label/letter.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/label/bmfont.js",
+      "__unresolved_2": "assets/label/letter-font.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/label/letter.js",
+    "mTimestamp": 1632885131407
+  },
+  "assets/label/ttfUtils.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/label/ttfUtils.js",
+    "mTimestamp": 1632885131724
+  },
+  "assets/test_ytc/src/common/base/ui/ScrollList.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/test_ytc/src/common/base/ui/ScrollListItem.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/test_ytc/src/common/base/ui/ScrollList.js",
+    "mTimestamp": 1632885132560
+  },
+  "assets/test_ytc/src/common/base/ui/ScrollListItem.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/test_ytc/src/common/base/ui/ScrollListItem.js",
+    "mTimestamp": 1632885132679
+  },
+  "assets/label/letter-font.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/label/bmfontUtils.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js",
+      "__unresolved_2": "assets/label/font-utils.js"
+    },
+    "physicalLocation": "fs/0/assets/label/letter-font.js",
+    "mTimestamp": 1632897625313
+  },
+  "assets/label/ttf.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/label/ttfUtils.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/label/ttf.js",
+    "mTimestamp": 1632898480095
+  },
+  "assets/label/bmfontUtils.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js",
+      "__unresolved_1": "assets/label/font-utils.js"
+    },
+    "physicalLocation": "fs/0/assets/label/bmfontUtils.js",
+    "mTimestamp": 1632902810474
+  },
+  "quick-pack:/cce/internal/x/cc.js": {
+    "imports": {
+      "__unresolved_0": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/base"
+      },
+      "__unresolved_1": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/gfx-webgl"
+      },
+      "__unresolved_2": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/2d"
+      },
+      "__unresolved_3": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/ui"
+      },
+      "__unresolved_4": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/physics-2d-box2d"
+      },
+      "__unresolved_5": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/physics-2d-framework"
+      },
+      "__unresolved_6": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/intersection-2d"
+      },
+      "__unresolved_7": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/profiler"
+      },
+      "__unresolved_8": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/particle-2d"
+      },
+      "__unresolved_9": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/audio"
+      },
+      "__unresolved_10": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/video"
+      },
+      "__unresolved_11": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/webview"
+      },
+      "__unresolved_12": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/tween"
+      },
+      "__unresolved_13": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/tiled-map"
+      },
+      "__unresolved_14": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/spine"
+      },
+      "__unresolved_15": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/dragon-bones"
+      }
+    },
+    "physicalLocation": "cce/internal/x/cc.js",
+    "mTimestamp": 1632902853325,
+    "isEntry": true,
+    "exposeAs": "cce:/internal/x/cc"
+  },
+  "quick-pack:/cce/internal/code-quality/cr.js": {
+    "imports": {},
+    "physicalLocation": "cce/internal/code-quality/cr.js",
+    "mTimestamp": 1632902853490
+  },
+  "assets/test_ytc/ytc/test_ytc.js": {
+    "imports": {
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js",
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/test_ytc/src/common/base/ui/ScrollList.js"
+    },
+    "physicalLocation": "fs/0/assets/test_ytc/ytc/test_ytc.js",
+    "mTimestamp": 1632902854209
+  },
+  "assets/label/font-utils.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/label/font-utils.js",
+    "mTimestamp": 1632903028032
+  },
+  "assets/test_ytc/ytc/test.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js",
+      "__unresolved_1": "assets/test_ytc/src/common/base/ui/ScrollList.js"
+    },
+    "physicalLocation": "fs/0/assets/test_ytc/ytc/test.js",
+    "mTimestamp": 1632903277975
+  },
+  "assets/test/src/common/base/ui/ScrollList.js": {
+    "imports": {
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js",
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/test/src/common/base/ui/ScrollListItem.js"
+    },
+    "physicalLocation": "fs/0/assets/test/src/common/base/ui/ScrollList.js",
+    "mTimestamp": 1632903297684
+  },
+  "assets/test/src/common/base/ui/ScrollListItem.js": {
+    "imports": {
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js",
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/test/src/common/base/ui/ScrollListItem.js",
+    "mTimestamp": 1632903297778
+  },
+  "assets/LabelPlus.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js",
+      "__unresolved_1": "assets/label/font-utils.js"
+    },
+    "physicalLocation": "fs/0/assets/LabelPlus.js",
+    "mTimestamp": 1632903341922
+  },
+  "assets/label/LabelPlus.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js",
+      "__unresolved_1": "assets/label/font-utils.js"
+    },
+    "physicalLocation": "fs/0/assets/label/LabelPlus.js",
+    "mTimestamp": 1632903391412
+  },
+  "assets/UpdateText.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/UpdateText.js",
+    "mTimestamp": 1632903457475
+  },
+  "quick-pack:/cce/internal/x/prerequisite-imports.js": {
+    "imports": {
+      "__unresolved_0": "assets/UpdateText.js",
+      "__unresolved_1": "assets/label/LabelPlus.js",
+      "__unresolved_2": "assets/label/bmfont.js",
+      "__unresolved_3": "assets/label/bmfontUtils.js",
+      "__unresolved_4": "assets/label/font-utils.js",
+      "__unresolved_5": "assets/label/index.js",
+      "__unresolved_6": "assets/label/letter-font.js",
+      "__unresolved_7": "assets/label/letter.js",
+      "__unresolved_8": "assets/label/ttf.js",
+      "__unresolved_9": "assets/label/ttfUtils.js",
+      "__unresolved_10": "assets/test/src/common/base/ui/ScrollList.js",
+      "__unresolved_11": "assets/test/src/common/base/ui/ScrollListItem.js",
+      "__unresolved_12": "assets/test/ytc/test.js"
+    },
+    "physicalLocation": "cce/internal/x/prerequisite-imports.js",
+    "mTimestamp": 1632903491652,
+    "isEntry": true,
+    "exposeAs": "cce:/internal/x/prerequisite-imports"
+  },
+  "assets/test/ytc/test.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js",
+      "__unresolved_1": "assets/test/src/common/base/ui/ScrollList.js"
+    },
+    "physicalLocation": "fs/0/assets/test/ytc/test.js",
+    "mTimestamp": 1632903491759
+  }
+}
